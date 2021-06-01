@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Testing</folder>
+	<filename>3a917c21e2f064ea.jpg</filename>
+	<path>/home/royanmart/Documents/Bangkit 2021/Final Project/Dataset/Final Anotasi/Tomato/Testing/3a917c21e2f064ea.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>683</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Tomato</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1</xmin>
+			<ymin>1</ymin>
+			<xmax>1024</xmax>
+			<ymax>683</ymax>
+		</bndbox>
+	</object>
+</annotation>
