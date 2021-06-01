@@ -1,0 +1,38 @@
+<annotation>
+	<folder>Pisang</folder>
+	<filename>Banana0588.png</filename>
+	<path>/home/royanmart/Documents/Bangkit 2021/Final Project/Done/Pisang/Banana0588.png</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>320</width>
+		<height>258</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Pisang</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>90</xmin>
+			<ymin>148</ymin>
+			<xmax>320</xmax>
+			<ymax>230</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>Pisang</name>
+		<pose>Unspecified</pose>
+		<truncated>1</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>64</xmin>
+			<ymin>204</ymin>
+			<xmax>320</xmax>
+			<ymax>258</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Kubis</folder>
+	<filename>_58.jpg</filename>
+	<path>/home/royanmart/Documents/Bangkit 2021/Final Project/Dataset/Sementara/Kubis/_58.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>2028</width>
+		<height>1481</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>Cabbage</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>510</xmin>
+			<ymin>426</ymin>
+			<xmax>1514</xmax>
+			<ymax>1240</ymax>
+		</bndbox>
+	</object>
+</annotation>
