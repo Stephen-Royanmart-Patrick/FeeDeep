@@ -1,7 +1,2 @@
-Flask
-numpy==1.19.2
-Pillow==7.2.0
-tensorflow
-matplotlib==3.4.2
-tf-slim==1.1.0
-tensorflow-object-detection-api==0.1.1
+Flask==1.1.2
+google-cloud-firestore==1.8.1
