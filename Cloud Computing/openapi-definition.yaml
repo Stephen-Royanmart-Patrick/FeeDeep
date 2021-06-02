@@ -1,0 +1,66 @@
+# openapi-definition.yaml
+swagger: "2.0"
+info:
+  title: my-api
+  description: Serverless APIs with API Gateway
+  version: 1.0.0
+schemes:
+ - https
+produces:
+ - application/json
+paths:
+#get collection from db
+  /data_pakan:
+      get:
+        summary: Get an Pakan
+        operationId: getPakan
+        x-google-backend:
+          address: #Replace with Cloud Function URL
+          protocol: h2
+        parameters:
+          - name: pakan_id
+            in: query
+            description: Pakan Id
+            required: true
+            type: string
+        responses:
+          '200':
+            description: A successful response
+            schema:
+              type: string
+  /data_hewan:
+      get:
+        summary: Get an Hewan
+        operationId: getHewan
+        x-google-backend:
+          address: #Replace with Cloud Function URL
+          protocol: h2
+        parameters:
+          - name: id_hewan
+            in: query
+            description: ID Hewan
+            required: true
+            type: string
+        responses:
+          '200':
+            description: A successful response
+            schema:
+              type: string
+  /data_kebutuhan_hewan:
+      get:
+        summary: Get an Hewan
+        operationId: getKebutuhanHewan
+        x-google-backend:
+          address: #Replace with Cloud Function URL
+          protocol: h2
+        parameters:
+          - name: id_hewan
+            in: query
+            description: ID Hewan
+            required: true
+            type: string
+        responses:
+          '200':
+            description: A successful response
+            schema:
+              type: string
