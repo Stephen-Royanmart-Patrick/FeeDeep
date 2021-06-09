@@ -1,5 +1,7 @@
 # Capstone Project Bangkit 2021 : FeeDeep (B21-CAP0096)
 
+### Documentation for our Capstone Project
+
 - Collect datasets from kaggle and open image v6
 - Labelling raw datasets
 - Find Machine Learning model
